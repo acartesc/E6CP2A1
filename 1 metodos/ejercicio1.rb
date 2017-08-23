@@ -3,10 +3,10 @@
 # y no obtener errores ni warnings.
 
 def par(x)
-  if x % 2 == 0
-    return true
+  if x.even?
+    true
   else
-    return false
+    false
   end
 end
 
