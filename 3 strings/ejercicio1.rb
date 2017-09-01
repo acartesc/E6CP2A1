@@ -5,3 +5,9 @@
 
 cadena = 'Hola Mundo!'
 caracter = 'o'
+
+def search(string, character)
+  puts "TRUE" if string.include?(character)
+end
+
+search(cadena, caracter)
